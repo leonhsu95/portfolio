@@ -100,10 +100,6 @@ header {
 
 
 /*-BANNER-*/
-/* #banner{
-    padding-top: 40px;
-    background-color: aliceblue;  
-} */
 
 .banner-container{
     display: flex;
@@ -111,8 +107,8 @@ header {
 }
 
 .banner-left{
-  width: 50%;  
-  display: flex;
+    width: 50%;  
+    display: flex;
 }
 
 .banner-content {
@@ -201,12 +197,12 @@ header {
     color: #e8d44d;
 }
 
-.fa-php{
-    color: #858eb8;
+.fa-node{
+    color: #6da75d;
 }
 
-.fa-bootstrap{
-    color: #533b78;
+.fa-php{
+    color: #858eb8;
 }
 
 .fa-wordpress{
