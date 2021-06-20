@@ -15,8 +15,8 @@ You can view my Portfolio here: [Leon Hsu Portfolio]()
 
 ## Description
 
-The is the portfolio page of Leon Hsu[leonhsu95] that demonstrates his skills as a web developer over the course of his coding bootcamp training. 
-Within the portfolio contains his information about himself, projects and contact details/form that you can contact him with.
+This is the portfolio of Leon Hsu[leonhsu95] that demonstrates his skills as a web developer over the course of his coding bootcamp training. 
+It contains his information about himself, projects and contact details/form that you potential employers or network connections can reach him with.
 
 
 ## Technologies
