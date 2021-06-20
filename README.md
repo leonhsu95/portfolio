@@ -45,7 +45,7 @@ Technologies used in this portfolio include:
 
 My portfolio should look like this, please do not recreate or reuse under any circumstances without permission:
 
- ![Portfolio Screenshot](assets/screenshots/screenshot.png)
+ ![Portfolio Screenshot](public/assets/screenshots/screenshot.png)
 
 ## Credits
 
