@@ -1,13 +1,13 @@
 function sendMessage(event) {
     event.preventDefault();
 
-    let firstName = document.getElementById("firstName").nodeValue.trim();
-    let lastName = document.getElementById("lastName").nodeValue.trim();
-    let phone = document.getElementById("phone").nodeValue.trim();
-    let email = document.getElementById("email").nodeValue.trim();
-    let comment= document.getElementById("comment").nodeValue.trim();
+    let firstName = document.getElementById("firstName").value.trim();
+    let lastName = document.getElementById("lastName").value.trim();
+    let phone = document.getElementById("phone").value.trim();
+    let email = document.getElementById("email").value.trim();
+    let comment= document.getElementById("comment").value.trim();
 
-if (firstname && lastname && phone && email && comment) {
+if (firstName && lastName && phone && email && comment) {
     
             let formData = JSON.stringify({
                 firstName,
