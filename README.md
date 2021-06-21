@@ -16,7 +16,7 @@ You can view my Portfolio here: [Leon Hsu Portfolio]()
 ## Description
 
 This is the portfolio of Leon Hsu[leonhsu95] that demonstrates his skills as a web developer over the course of his coding bootcamp training. 
-It contains his information about himself, projects and contact details/form that you potential employers or network connections can reach him with.
+It contains his information about himself, projects and contact details/form that potential employers or network connections can reach him with.
 
 
 ## Technologies
@@ -34,6 +34,7 @@ Technologies used in this portfolio include:
     * express-session
     * handlebars
     * mysql2
+    * nodemailer
     * nodemon
     * sequelize
 
