@@ -416,6 +416,7 @@ header {
 	border: none;
     font-size: 1em;
     letter-spacing: 2px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
 }
 
 #submit:hover{
@@ -526,7 +527,13 @@ span.error-message{
     bottom: 20px;
 }
 
-
+#message-success{
+    display: inline-block;
+    position: relative;
+    top: -20px;
+    font-size: 1.3em;
+    color: antiquewhite;
+}
 
 
 /*------------------------------MOBILE--------------------------------*/

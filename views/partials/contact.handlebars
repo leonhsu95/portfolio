@@ -1,7 +1,9 @@
 <section id="contact" class="link-section responsive">
     <div class="wrapper">
         <h2 id="contact-heading" class="section-heading">Contact Me</h2>
-        <form id="contact-form" action="#" method="post" novalidate="" >
+        <form id="contact-form" action="send" method="POST" novalidate="">
+            <p id="message-success"></p>
+            {{ msg }}
             <fieldset>
                 <p class="form-fields">
                     <label for="firstName">First Name:</label>
@@ -25,9 +27,10 @@
                 <textarea name="comment" id="comment" rows="6"></textarea>
                 </p>
                 <p class="form-submit">
-                <input type="submit" name="submit" value="Submit" id="submit">
+                <button type="submit" id="submit">Submit</button>
                 </p>
             </fieldset>
         </form>
     </div>     
 </section>
+

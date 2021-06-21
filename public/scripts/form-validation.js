@@ -9,7 +9,9 @@ contactForm.addEventListener("submit", (event)=>
 	let lastName = contactForm.elements["lastName"];
 	let phone = contactForm.elements["phone"];
 	let email = contactForm.elements["email"];
-	let comment= contactForm.elements["comment"];
+	let comment = contactForm.elements["comment"];
+
+	let success = document.getElementById("message-success");
 
 	if(firstName.value.trim().length<2)
 	{
@@ -35,6 +37,9 @@ contactForm.addEventListener("submit", (event)=>
 	}
 	if (comment.value.trim().length < 20) {
 		showError(comment, event, "Please enter 20+ characters");
+	}
+	else{
+
 	}
 });
 
