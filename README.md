@@ -1,6 +1,6 @@
 # Leon Hsu Portfolio
 
-You can view my Portfolio here: [Leon Hsu Portfolio]()
+You can view my Portfolio here: [Leon Hsu Portfolio](https://leonhsu95.herokuapp.com/)
 
 ## Table of Contents
 
