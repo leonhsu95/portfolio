@@ -44,7 +44,6 @@ app.get("/", (req, res, next) => {
 
 app.post('/send', (req , res) => {
   const output = `New Message received
-  Contact Details
   
   Name: ${req.body.firstName} ${req.body.lastName}
   Phone: ${req.body.phone}
@@ -68,21 +67,19 @@ app.post('/send', (req , res) => {
     });
   
     // send mail with defined transport object
-    let info =transporter.sendMail({
+    let mailOptions ={
       from: "leonwebtest@gmail.com", // sender address
       to: "leonhsu95@gmail.com", // list of receivers
       subject: "New Message from Nodemailer", // Subject line
       text: output
-      // html: output, // html body
-
-      
-    });
+      // html: output, // html body      
+    };
   
-    transporter.sendMail(info, function(error, info){
+    transporter.sendMail(mailOptions, function(error, info){
       if (error) {
       console.log(error);
       } else {
-        console.log('Email sent: ' + info.response);
+        console.log('Email sent');
       }
     });
 

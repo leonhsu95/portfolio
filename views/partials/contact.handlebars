@@ -1,9 +1,8 @@
 <section id="contact" class="link-section responsive">
     <div class="wrapper">
         <h2 id="contact-heading" class="section-heading">Contact Me</h2>
-        <form id="contact-form" action="send" method="POST" novalidate="">
-            <p id="message-success"></p>
-            {{ msg }}
+        <form id="contact-form" method="POST" action="send" novalidate="">
+            <div id="success"></div>
             <fieldset>
                 <p class="form-fields">
                     <label for="firstName">First Name:</label>

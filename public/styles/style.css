@@ -527,7 +527,7 @@ span.error-message{
     bottom: 20px;
 }
 
-#message-success{
+.message-success{
     display: inline-block;
     position: relative;
     top: -20px;

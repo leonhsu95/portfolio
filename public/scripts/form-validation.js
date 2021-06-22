@@ -10,8 +10,9 @@ contactForm.addEventListener("submit", (event)=>
 	let phone = contactForm.elements["phone"];
 	let email = contactForm.elements["email"];
 	let comment = contactForm.elements["comment"];
-
-	let success = document.getElementById("message-success");
+	let success = document.getElementById("success");
+    let successMessage = document.createElement("p");
+    successMessage.setAttribute("class", "message-success");
 
 	if(firstName.value.trim().length<2)
 	{
@@ -39,7 +40,10 @@ contactForm.addEventListener("submit", (event)=>
 		showError(comment, event, "Please enter 20+ characters");
 	}
 	else{
-
+		successMessage.textContent= "Your message has been sent, Thank you.";
+        success.appendChild(successMessage);
+		setTimeout(function(){ location.reload(); }, 5000);
+		
 	}
 });
 
