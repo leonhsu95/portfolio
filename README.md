@@ -63,6 +63,7 @@ This work may not be reprinted, reproduced or reused under any circumstances.
 - The website is mobile first and responsive.
 - Animation triggers on HTML elements on mouse scroll.
 - Potential Employers can view all of my projects, skill proficiencies and contact details.
+- Regex is implemented on Contact Form to validate user inputs and gives them descriptive information to satisfy the regex for each form fields.
 
 ## Improvements
 - The site can be more dynamic in animation and can take inspiration from awwwards.com websites.
