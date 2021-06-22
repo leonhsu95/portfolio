@@ -66,7 +66,7 @@ This work may not be reprinted, reproduced or reused under any circumstances.
 
 ## Improvements
 - The site can be more dynamic in animation and can take inspiration from awwwards.com websites.
-- Contact Form can have js regex for validation and website can be hosted and turned into php to make Contact Form work.
+- Contact Form may have potential error on Herkou, will have to test further to pass OAuth Credentials.
 
 ## Tests
 
