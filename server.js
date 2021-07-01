@@ -2,6 +2,7 @@ const path = require('path');
 const express = require('express');
 const session = require('express-session');
 const exphbs = require('express-handlebars');
+const compression = require('compression');
 const nodemailer = require('nodemailer');
 const routes = require('./controllers');
 const helpers = require('./utils/helpers');
@@ -12,6 +13,7 @@ const sequelize = require('./config/connection');
 const SequelizeStore = require('connect-session-sequelize')(session.Store);
 
 const app = express();
+app.use("compression");
 const PORT = process.env.PORT || 3001;
 
 // Set up Handlebars.js engine with custom helpers
